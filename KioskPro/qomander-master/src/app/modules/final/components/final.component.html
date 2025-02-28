@@ -1,0 +1,58 @@
+<app-language-bar></app-language-bar>
+<main>
+  <img
+    class="qomander-logo"
+    src="./assets/images/logo/qomander.svg"
+    alt="qomander"
+    (click)="reset()"
+  />
+  <div class="meal">
+    <div class="meal__picture">
+      <img [src]="selectedMeal.picture" alt="{{ selectedMeal.name }}" />
+    </div>
+    <div class="meal__name">
+      <p>{{ selectedMeal.name }}</p>
+      <p class="meal__price">{{ selectedMeal.price }} DZD</p>
+    </div>
+  </div>
+
+  <div class="selected-options">
+    <p class="selected-options__heading">
+      Selected options
+      <span>{{ optionsTotalPrice === 0 ? "Free" : "+ " + optionsTotalPrice + " DZD" }}</span>
+    </p>
+    <div class="selected-options__stack" #optionsContainer (wheel)="scrollEvent($event)">
+      <div class="option" *ngFor="let option of selectedOptions">
+        <img [src]="option.picture" alt="{{ option.name }}" />
+        <p>{{ option.name }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="heading">
+    <img src="./assets/images/icons/order.png" alt="order" class="heading__picture" />
+    <h1>Order added</h1>
+    <h2>
+      Are you sure you don't <br />
+      want to add a drink ?
+    </h2>
+    <div class="heading__drink" (click)="notif()">
+      <img class="heading__drink__image" src="./assets/images/categories/drinks.webp" alt="drink" />
+      <div>
+        <p class="heading__drink__title">Coca Cola</p>
+        <p class="heading__drink__price">70 DZD</p>
+      </div>
+      <div class="heading__drink__circle"><span>+</span></div>
+    </div>
+  </div>
+  <div class="footer">
+    <h2 class="footer__heading">
+      Have you completed your order or <br />
+      you want to continue your selection?
+    </h2>
+    <div class="footer__buttons">
+      <button class="white" (click)="reset()">Finish</button>
+      <button class="orange" (click)="notif()">Select more</button>
+    </div>
+  </div>
+</main>

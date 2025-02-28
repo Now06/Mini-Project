@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Tacos Double",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/meals/tacos/tacos-double.webp",
+    "price": 400
+  },
+  {
+    "name": "Tacos Special",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/meals/tacos/tacos-supreme.webp",
+    "price": 250
+  },
+  {
+    "name": "Tacos Simple",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/meals/tacos/tacos-simple.webp",
+    "price": 200
+  },
+  {
+    "name": "Tacos Maxi",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/meals/tacos/tacos-maxi.webp",
+    "price": 300
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  },
+  {
+    "name": "Placeholder",
+    "categoryKey": "tacos",
+    "picture": "/assets/images/logo/qomander.svg",
+    "price": 600
+  }
+]

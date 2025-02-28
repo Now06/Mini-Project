@@ -1,0 +1,17 @@
+<h1 class="heading">{{ steps[currentStepIndex].heading }}</h1>
+<p class="sub-heading" *ngIf="steps[currentStepIndex].canSelect">
+  You can select only {{ steps[currentStepIndex].canSelect }} type
+</p>
+<div class="options-container" #mealOptions>
+  <ng-container *ngFor="let option of steps[currentStepIndex].options">
+    <app-card [cardData]="option" (cardClickedEvent)="optionClicked($event)"></app-card>
+  </ng-container>
+</div>
+<button
+  class="next"
+  [disabled]="!selectedStep.selectedOptions.length && currentStepIndex === 0"
+  (click)="nextButton()"
+>
+  Next
+</button>
+<div class="scroll-shadow"></div>
