@@ -1,0 +1,50 @@
+Hadoop Installation 
+
+windows(c) la JAVA folder create panikoo
+
+install java version 8
+
+during installation select the JAVA folder (Na create panathu)
+
+after installation delete the created folder
+
+inside program files del java folder
+
+copy the setup zip from technical folder
+
+then extract the setup zip ( we get 2 folder JAVA and Hadoop), cut and paste into (c)
+
+open java folder --> jdk-1.8 --> bin --> copy the path (C:\JAVA\jdk-1.8\bin)
+
+paste in environment variable --> user var --> click new (JAVA_HOME) and paste the path (C:\JAVA\jdk-1.8\bin)
+
+system var --> click edit in path --> paste the path (C:\JAVA\jdk-1.8\bin)
+
+then go to Hadoop folder --> bin --> copy the path (C:\hadoop\bin)
+
+paste in environment variable --> user var --> click new (HADOOP_HOME) and paste the path (C:\hadoop\bin)
+
+system var --> click edit in path --> paste the path (C:\hadoop\bin), (C:\hadoop\sbin)
+and (C:\Hadoop)
+
+then go to Hadoop folder run winutils application inside bin 
+
+open cmd check version --> java -version,
+hadoop version
+
+now run cmd as administrator --> hdfs namenode -format 
+ 				 cd \
+				 cd Hadoop
+				 cd sbin
+				 start-dfs.cmd
+				 jps
+				 start-yarn.cmd
+				 jps
+chrome --> localhost:9870
+	   localhost:8088
+
+......that's all your honor.......
+
+
+
+
