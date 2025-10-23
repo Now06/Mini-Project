@@ -1,0 +1,14 @@
+
+Ex 3
+
+Install gae
+install python
+
+After install gae
+edit-> preference
+add path -> pythonw27
+app engine -> program86--> google --> gae
+
+create --> folder --> app
+
+then --> create engineapp 
