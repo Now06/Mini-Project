@@ -1,0 +1,16 @@
+Install python package
+
+python -m venv myenv
+
+myenv\Scripts\activate  # On Windows
+
+python -m pip install --no-cache-dir package_name
+
+deactivate  # To exit the environment
+
+python -m pip install --upgrade pip
+
+python -m pip install --upgrade scikit-learn
+
+python -m pip install --no-cache-dir numpy pandas matplotlib scikit-learn seaborn
+
